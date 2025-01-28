@@ -26,6 +26,7 @@
 
 #### Potential Improvements
 
+- **Pagination Implementation:** Adding pagination for the UsersList page
 - **Error Handling:** Display user-friendly error messages for network errors and other errors.
 - **UI Enhancements:** Improve responsiveness and UI design with additional styling.
   \*/
