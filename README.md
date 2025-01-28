@@ -2,7 +2,7 @@
 
 #### Project Setup Instructions
 
-1. Clone the repository: `git clone <repo-url>`
+1. Clone the repository: `git clone https://github.com/pushpark/usermanagenment.git`
 2. Navigate to the project directory: `cd my-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
