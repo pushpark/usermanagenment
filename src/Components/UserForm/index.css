@@ -1,0 +1,69 @@
+.user-form-container-bg {
+  background-color: #5693af;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-form-container {
+  background-color: #fdfbfbfa;
+  width: 400px;
+  min-height: 440px;
+  border-radius: 10px;
+  box-shadow: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 767px) {
+  .user-form-container {
+    width: 95%;
+    height: 400px;
+    padding: 10px;
+  }
+}
+.user-form-heading {
+  font-size: 24px;
+  font-family: Roboto;
+  color: #fcfcfc;
+  margin-top: 20px;
+}
+.label {
+  width: 100%;
+  color: #1a1414;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.input {
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid #64748b;
+  border-radius: 3px;
+  padding-left: 10px;
+  outline: none;
+  color: #1b0202;
+}
+.buttons {
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #4f46e5;
+  margin: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.error-message {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #ff0b37;
+  margin-top: 3px;
+}
